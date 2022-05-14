@@ -3,6 +3,9 @@ import styled from 'styled-components'
 import { isAddress } from '../../utils/index.js'
 import OswapLogo from '../../assets/oswap_asset.png'
 import NotFound from '../../assets/coin.png'
+import BusdLogo from '../../assets/tokens/BUSD-bd1.png'
+import FlokiOneLogo from '../../assets/tokens/FlokiONE.png'
+import HarlLogo from '../../assets/tokens/HARL.png'
 
 const BAD_IMAGES = {}
 
@@ -38,6 +41,24 @@ export default function TokenLogo({ address, size = '' }) {
   if (address?.toLowerCase() === '0x01a4b054110d57069c1658afbc46730529a3e326') {
     return (
       <Image src={OswapLogo} size={size} />
+    )
+  }
+
+  if (address?.toLowerCase() === '0x791fa343792f377369a0189fc69afa14ad12d3ac') {
+    return (
+      <Image src={BusdLogo} size={size} />
+    )
+  }
+
+  if (address?.toLowerCase() === '0x24b6179e4062ed9baeace0e6081dbd55b6072380') {
+    return (
+      <Image src={FlokiOneLogo} size={size} />
+    )
+  }
+
+  if (address?.toLowerCase() === '0x4518231a8fdf6ac553b9bbd51bbb86825b583263') {
+    return (
+      <Image src={HarlLogo} size={size} />
     )
   }
 
