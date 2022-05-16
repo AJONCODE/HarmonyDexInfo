@@ -173,7 +173,7 @@ function SideNav({ history }) {
             )}
           </TWMenu>
           <TWMenuBottom>
-            <TWMenuMiddle>
+            {/* <TWMenuMiddle>
               <TWHeaderText>
                 <Link className="flex items-center space-x-3" href="https://openswap.one" target="_blank">
                   <i class="las la-link text-lg"></i>
@@ -198,8 +198,8 @@ function SideNav({ history }) {
                   <p>Twitter</p>
                 </Link>
               </TWHeaderText>
-            </TWMenuMiddle>
-            <Toggle isActive={isDark} toggle={toggleDarkMode} />
+            </TWMenuMiddle> 
+            <Toggle isActive={isDark} toggle={toggleDarkMode} /> */}
           </TWMenuBottom>
         </DesktopWrapper>
       ) : (

@@ -87,7 +87,7 @@ function GlobalPage() {
           <AutoColumn gap="24px" style={{ paddingBottom: below800 ? '0' : '24px' }}>
             <TWIconTextTitle>
               <i class="las la-chart-line text-3xl"></i>
-              <p class="text-3xl">OpenSwap Analytics</p>
+              <p class="text-3xl">HarmonyDex Analytics</p>
             </TWIconTextTitle>
             <Search />
             <GlobalStats />

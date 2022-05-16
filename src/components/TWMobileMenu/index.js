@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import tw from 'tailwind-styled-components'
 import { BasicLink } from '../Link'
 import Link from '../Link'
-import Logo from '../../assets/oswap_logo.png'
+import Logo from '../../assets/logo.png'
 import { withRouter } from 'react-router-dom'
 
 const MobileWrapper = styled.div`

@@ -436,10 +436,10 @@ export const Search = ({ small = false }) => {
               : below410
               ? 'Search...'
               : below470
-              ? 'Search OpenSwap...'
+              ? 'Search HarmonyDex...'
               : below700
               ? 'Search pairs and tokens...'
-              : 'Search OpenSwap pairs and tokens...'
+              : 'Search HarmonyDex pairs and tokens...'
           }
           value={value}
           onChange={(e) => {
