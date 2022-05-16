@@ -65,7 +65,7 @@ const TradingViewChart = ({
   const topScale = type === CHART_TYPES.AREA ? 0.32 : 0.2
 
   const [darkMode] = useDarkModeManager()
-  const textColor = darkMode ? '#edeff2' : '#313547'
+  const textColor = darkMode ? '#edeff2' : '#edeff2'
   const previousTheme = usePrevious(darkMode)
 
   // reset the chart if them switches

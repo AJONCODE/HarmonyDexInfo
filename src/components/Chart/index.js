@@ -216,7 +216,7 @@ const Chart = ({ data, chartOption, currencyUnit, symbol }) => {
               contentStyle={{
                 padding: '10px 14px',
                 borderRadius: 10,
-                borderColor: 'var(--c-zircon)',
+                borderColor: 'var(--c-zircon)'
               }}
               wrapperStyle={{ top: -70, left: -10 }}
             />
