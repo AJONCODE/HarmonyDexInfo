@@ -38,7 +38,7 @@ export const stakingClient = new ApolloClient({
 
 export const blockClient = new ApolloClient({
   link: new HttpLink({
-    uri: 'https://graph2.viper.exchange/subgraphs/name/harmony/blocks',
+    uri: 'http://46.101.170.222:8000/subgraphs/name/harmony-blocks/subgraph',
   }),
   cache: new InMemoryCache(),
 })

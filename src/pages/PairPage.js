@@ -164,7 +164,18 @@ function PairPage({ pairAddress, history }) {
   } = usePairData(pairAddress)
 
   useEffect(() => {
-    document.querySelector('body').scrollTo(0, 0)
+    console.log('pair token0',token0);
+    console.log('pair token1',token1);
+    console.log('pair reserve0',reserve0);
+    console.log('pair reserveUSD',reserveUSD);
+    console.log('pair trackedReserveUSD',trackedReserveUSD);
+    console.log('pair oneDayVolumeUSD',oneDayVolumeUSD);
+    console.log('pair volumeChangeUSD',volumeChangeUSD);
+    console.log('pair oneDayVolumeUntracked',oneDayVolumeUntracked);
+    console.log('pair volumeChangeUntracked',volumeChangeUntracked);
+    console.log('pair liquidityChangeUSD',liquidityChangeUSD);
+  
+    document.querySelector('body').scrollTo(0, 0);
   }, [])
 
   const transactions = usePairTransactions(pairAddress)

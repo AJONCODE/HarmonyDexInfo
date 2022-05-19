@@ -466,7 +466,7 @@ const getGlobalTransactions = async () => {
 const getEthPrice = async () => {
   const utcCurrentTime = dayjs()
   const utcOneDayBack = utcCurrentTime.subtract(1, 'day').startOf('minute').unix()
-
+  //const utcOneDayBack = utcCurrentTime.startOf('minute').unix()
   let ethPrice = 0
   let ethPriceOneDay = 0
   let priceChangeETH = 0

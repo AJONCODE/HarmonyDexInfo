@@ -642,6 +642,8 @@ const PairFields = `
     trackedReserveETH
     reserveETH
     volumeUSD
+    volumeToken0
+    volumeToken1
     untrackedVolumeUSD
     token0Price
     token1Price
@@ -696,7 +698,7 @@ export const PAIRS_BULK = gql`
   ${PairFields}
   query pairs($allPairs: [Bytes]!) {
     pairs(first: 500, where: { id_in: $allPairs }, orderBy: trackedReserveETH, orderDirection: desc) {
-      ...PairFields
+     ...PairFields
     }
   }
 `
